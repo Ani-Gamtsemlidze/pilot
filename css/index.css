@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../imgs/women.jpg");
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+h2{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 50px;
+}
+p{
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 40px;
+    margin-top: 53px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+    /* justify-content: space-around; */
+    margin-top: 15%;
+}
+.shadow{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0, 0.4);
+    top: 0;
+    left: 0;
+}
