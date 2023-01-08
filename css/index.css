@@ -32,7 +32,6 @@ p{
     align-items: center;
     z-index: 1;
     position: relative;
-    /* justify-content: space-around; */
     margin-top: 15%;
 }
 .shadow{
