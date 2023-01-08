@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Mouse Memoirs', sans-serif;
+                                                
 }
 .main-container{
     width: 100%;
@@ -20,7 +22,7 @@ h2{
     color: #fff;
     font-size: 50px;
 }
-p{
+.text p{
     text-transform: capitalize;
     color: #fff;
     font-size: 40px;
@@ -42,3 +44,33 @@ p{
     top: 0;
     left: 0;
 }
+.skills-content p{
+    font-weight: 700;
+    font-size: 20px;
+}
+.skills-content{
+    background-color:#efefef;
+    padding: 100px 0 60px 0;
+}
+.short-text{
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+}
+.profile-content img{
+    width: 570px;
+    height: 380px;
+    object-fit: cover;
+    margin-right: 40px;
+}
+.profile-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin: 50px auto 0;
+}
+.profile-content p{
+    line-height: 40px; 
+}
+
