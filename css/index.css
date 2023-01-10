@@ -184,6 +184,7 @@ span{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: 2s;
 }
 .txt1{
     font-size: 23px;
@@ -192,4 +193,9 @@ span{
 }
 .part1{
     margin-left: 13px;
+}
+.txt:hover .txt1{
+    margin-right: 300px;
+    transition: 0.5s;
+    color: rgb(122, 10, 10);
 }
