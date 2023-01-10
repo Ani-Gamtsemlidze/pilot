@@ -17,16 +17,26 @@
     position: relative;
 
 }
-h2{
+.text h2{
     text-transform: uppercase;
     color: #fff;
     font-size: 50px;
+    transition: 0.6s;
+}
+.text h2:hover{
+    letter-spacing: 5px;
+    
+}
+.text p:hover{
+    letter-spacing: 5px;
+
 }
 .text p{
     text-transform: capitalize;
     color: #fff;
     font-size: 40px;
     margin-top: 53px;
+    transition: 0.6s;
 }
 .text{
     display: flex;
@@ -57,11 +67,26 @@ h2{
     width: 700px;
     margin: 0 auto;
 }
+.short-text p{
+    line-height: 40px;
+    color: #1d7874;
+    font-size: 20px;
+}
 .profile-content img{
     width: 570px;
     height: 380px;
     object-fit: cover;
     margin-right: 40px;
+    border-radius: 20px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    transition: 0.6s;
+    
+}
+.profile-content img:hover{
+    -webkit-transform: rotate(-8deg);
+    border-radius: 0;
+
 }
 .profile-content{
     display: flex;
@@ -74,3 +99,87 @@ h2{
     line-height: 40px; 
 }
 
+span{
+    line-height: 40px;
+    color: #155855;
+    font-weight: 700;
+    font-size: 20px;
+}
+.scales{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    
+}
+.scale1{
+    height: 15px;
+    width: 480px;
+    background-color: #1d7874;
+    border-radius: 5px;
+    position: absolute;
+}
+.back1{
+    height: 15px;
+    width: 550px;
+    background-color: #155855;
+    border-radius: 5px;
+}
+.scales h3{
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.scale2{
+    height: 15px;
+    width: 450px;
+    background-color: #1d7874;
+    border-radius: 5px;
+}
+.back2{
+    height: 15px;
+    width: 550px;
+    background-color: #155855;
+    border-radius: 5px;
+}
+
+.scale3{
+    height: 15px;
+    width: 500px;
+    background-color: #1d7874;
+    border-radius: 5px;
+}
+.back3{
+    height: 15px;
+    width: 550px;
+    background-color: #155855;
+    border-radius: 5px;
+}
+.scale4{
+    height: 15px;
+    width: 430px;
+    background-color: #1d7874;
+    border-radius: 5px;
+}
+.back4{
+    height: 15px;
+    width: 550px;
+    background-color: #155855;
+    border-radius: 5px;
+}
+.new{
+    margin-bottom: 25px;
+}
+.new2{
+    margin-bottom: 25px;
+}
+.txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.txt1{
+    font-size: 23px;
+    color: black;
+    font-weight: 700;
+}
