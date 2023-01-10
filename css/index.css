@@ -61,6 +61,13 @@
 .skills-content{
     background-color:#efefef;
     padding: 100px 0 60px 0;
+    background-image: url("https://img.freepik.com/free-photo/gray-texture_1253-244.jpg?w=2000");
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.img1{
+    opacity: 0.1;
 }
 .short-text{
     text-align: center;
@@ -69,7 +76,7 @@
 }
 .short-text p{
     line-height: 40px;
-    color: #1d7874;
+    color: #000;
     font-size: 20px;
 }
 .profile-content img{
@@ -101,7 +108,7 @@
 
 span{
     line-height: 40px;
-    color: #155855;
+    color: #000;
     font-weight: 700;
     font-size: 20px;
 }
@@ -182,4 +189,7 @@ span{
     font-size: 23px;
     color: black;
     font-weight: 700;
+}
+.part1{
+    margin-left: 13px;
 }
