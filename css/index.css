@@ -8,7 +8,7 @@
 .main-container{
     width: 100%;
     height: 100vh;
-    background-image: url("../imgs/women.jpg");
+    background-image: url("https://wallpaperaccess.com/full/763120.jpg");
     background-position: top;
     background-size: cover;
     display: flex;
@@ -61,7 +61,7 @@
 .skills-content{
     background-color:#efefef;
     padding: 100px 0 60px 0;
-    background-image: url("https://img.freepik.com/free-photo/gray-texture_1253-244.jpg?w=2000");
+    background-image: url("https://img.freepik.com/free-photo/white-paper-texture-background_125540-900.jpg?w=2000");
     height: 100%;
     width: 100%;
     position: relative;
@@ -194,11 +194,11 @@ span{
 .part1{
     margin-left: 13px;
 }
-.txt:hover .txt1{
+/* .txt:hover .txt1{
     margin-right: 300px;
     transition: 0.5s;
     color: rgb(122, 10, 10);
-}
+} */
 h2{
     font-size: 32px;
     font-weight: 800;
@@ -206,7 +206,7 @@ h2{
 
 .funct{
     width: 100%;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(255, 255, 255);
     height: 100vh;
 }
 .funct h2{
@@ -224,6 +224,7 @@ h2{
     justify-content: center;
     flex-direction: column;
     transition: 0.2s;
+    border-radius: 7px;
 }
 .boxing{
     display: flex;
@@ -254,60 +255,108 @@ h2{
 .latest{
     width: 100%;
     height: 100vh;
+    background-color: #f7f7f7;
 }
 .boxes{
     display: flex;
     justify-content: space-between;
-    margin: 60px 90px;
-    
-
-
+    margin: 60px 125px;
 }
 .latest h2{
     text-align: center;
     color: #000;
     text-transform: capitalize;
-    margin-top: 100px;
     font-weight: 700;
+    padding-top: 100px;
 }
 .latest-boxes{
     width: 350px;
     height: 350px;
-    background-color: #1d7874;  
+    background-color: #155855;  
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     transition: 0.5s;
     position: relative;
-    z-index: 1;
-    
-}
+    border-radius: 7px;
+    line-height: 32px;
 
+}
 .latest-boxes p{
-    font-size: 30px;
+    font-size: 22px;
     text-align: center;
     color: white;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    margin-top: 22px;
 }
 .latest-boxes h3{
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     letter-spacing: 3px;
+    text-transform: capitalize;
 }
 .hov{
     width: 100%;
-    background-color: rgba(128, 0, 128, 0.5);
+    background-color: rgba(255, 255, 255, 0.2);
     position: absolute;
-    z-index: 0;
-    transition: 4s ;
+    z-index: 1;
+    transition: .4s ;
     top: 0;
     left: 0;
+    height: 0;
 
 }
 .latest-boxes:hover .hov{
     height: 100%;
-
+    cursor: pointer;
 }
+.png{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    transition: .4s;
+    
+}
+.latest-boxes:hover .png{
+    transform: scale(1.2);   
+}
+.copy{
+    background-color: rgb(19, 19, 19);
+    width: 100%;
+    height: 350px;
+}
+.copyright p{
+    color: #777777;
+    text-align: center;
+    margin-top: 25px;
+}
+a{
+    background-color: #f3f3f3;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+}
+.twit{
+    width: 35px;
+    height: 35px;
+    color: white;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    
+}
+
+
 
 
 
