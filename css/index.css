@@ -8,20 +8,54 @@
 .main-container{
     width: 100%;
     height: 100vh;
-    background-image: url("https://wallpaperaccess.com/full/763120.jpg");
+    background-image: url(https://wallpaperaccess.com/full/537069.jpg);
+    object-fit: cover;
+    object-position: top;
     background-position: top;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+}
+.listing{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    top: 0;
+    left: 0;
+    padding: 20px 10px 0 10px;
+}
+.list{
+    color: white;
+    z-index: 1;
+    text-transform: capitalize;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
 
+}
+.list a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.car{
+    width: 65px;
+    height: 65px;
+    z-index: 1;
+    object-fit: contain;
+   
 }
 .text h2{
     text-transform: uppercase;
     color: #fff;
     font-size: 50px;
     transition: 0.6s;
+    
 }
 .text h2:hover{
     letter-spacing: 5px;
@@ -87,20 +121,17 @@
     border-radius: 20px;
     border-bottom-right-radius: 100px;
     border-top-left-radius: 100px;
-    transition: 0.6s;
+    margin-right: 200px;
     
 }
-.profile-content img:hover{
-    -webkit-transform: rotate(-8deg);
-    border-radius: 0;
 
-}
 .profile-content{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 1200px;
     margin: 50px auto 0;
+    position: relative;
 }
 .profile-content p{
     line-height: 40px; 
@@ -332,7 +363,7 @@ h2{
     text-align: center;
     margin-top: 25px;
 }
-a{
+.one{
     background-color: #f3f3f3;
     border-radius: 50%;
     height: 50px;
@@ -345,16 +376,115 @@ a{
     margin-right: 12px;
 }
 .twit{
-    width: 35px;
-    height: 35px;
+    width: 50%;
+    height: 50%;
     color: white;
+    object-fit: contain;
 }
 .icons{
     display: flex;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 100px; 
+}
+
+@media(max-width:992px) {
+    .short-text{
+        width: 460px;
+    }
+    .profile-content{
+        display: flex;
+        flex-direction: column;
+        
+    
+    }
+    .profile-content p{
+        width: 500px;
+        height: 230px;
+        text-align: center;
+        
+    }
+    .profile-content img{
+       
+        border-radius: 5px;
+        width: 35%;
+
+    }
+    .scales{
+        display: flex;
+        flex-direction: column; 
+    }
+    .back1{
+        width: 430px;
+    }
+    .scale1{
+        width: 360px;
+    }
+    .back2{
+        width: 430px;
+    }
+    .scale2{
+        width: 330px;
+        margin-bottom: 30px;
+    }
+    .back3{
+        width: 430px;
+        margin-left: 13px;
+    }
+    .scale3{
+        width: 400px;
+        margin-bottom: 20px;
+    }
+    .back4{
+        width: 430px;
+        margin-left: 13px;
+        
+    }
+    .scale4{
+        width: 330px;
+        margin-top: 20px;
+    }
+    .txt1{
+        margin-right: 50px;
+    }
+    .txt h3{
+        margin-top: 20px;
+        margin-left: 10px;
+        
+    }
+    .boxing{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .boxing1{
+        margin: 12px;
+    }
+    .funct{
+        height: auto;
+    }
+    .latest{
+        height: auto;
+    }
+    .latest-boxes{
+        margin: 20px;
+    }
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .copy{
+        height: 280px;
+    }
+    .copyright{
+        width: 400px;
+        margin: 0 auto;
+    }
+
     
 }
+
 
 
 
