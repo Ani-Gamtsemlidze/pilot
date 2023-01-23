@@ -94,7 +94,6 @@
 }
 .skills-content{
     background-color:#efefef;
-    padding: 100px 0 60px 0;
     background-image: url("https://img.freepik.com/free-photo/white-paper-texture-background_125540-900.jpg?w=2000");
     width: 100%;
     position: relative;
@@ -103,11 +102,10 @@
     opacity: 0.1;
 }
 .short-text{
-    text-align: center;
-    
+    text-align: center;   
 }
 .short-text p{
-    line-height: 40px;
+    padding-top: 45px;
     color: #000;
     font-size: 20px;
 }
@@ -115,24 +113,21 @@
     width: 570px;
     height: 380px;
     object-fit: cover;
-    margin-right: 40px;
     border-radius: 20px;
     border-bottom-right-radius: 100px;
     border-top-left-radius: 100px;
-    
-    
 }
 
 .profile-content{
     display: flex;
-    justify-content: center;
+    margin: 40px;
     align-items: center;
     max-width: 1200px;
-    margin: 50px auto 0;
     position: relative;
 }
 .profile-content p{
-    line-height: 40px; 
+    line-height: 30px; 
+    padding-left: 30px;
 }
 
 span{
@@ -221,7 +216,8 @@ h2{
     text-align: center;
     text-transform: capitalize;
     color: #000;
-    padding-top: 80px;
+    padding-top: 50px;
+    font-weight: 700;
     
 }
 .boxing1{
@@ -269,15 +265,13 @@ h2{
     justify-content: space-evenly;
     align-items: center;
     padding: 50px 70px;
-    
-    
 }
 .latest h2{
     text-align: center;
     color: #000;
     text-transform: capitalize;
     font-weight: 700;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .latest-boxes{
     width: 350px;
@@ -374,36 +368,38 @@ h2{
 
     .text h2{
         font-size: 32px;
+        text-align: center;
         
     }
     .text p{
         font-size: 30px;
         margin-top: 20px;
+        text-align: center;
     }
 
-    .short-text p{
-        
+    .short-text p{ 
         font-size: 20px;
-        margin: 20px 20px;
+        margin: 0 5px;
+        
     }
     .short-text span{
-        font-size: 18px;
-       
+        font-size: 18px; 
+        align-items: flex-end;
+        
     }
     .profile-content img{
         width: 70%;
         height: 55%;
         border-radius: 5px;
         margin: 0 auto;
+        padding-bottom: 14px;
     }
     .profile-content{
         display: flex;
         flex-direction: column;
-
-
     }
     .profile-content p{
-        width: 90%;
+        width: 95%;
         margin-top: 20px;
         font-size: 18px;
     }
@@ -413,6 +409,9 @@ h2{
         justify-content: center;
         align-items: center;
         margin: 25px;
+    }
+    .list{
+        display: none;
     }
     .part1{
         width: 100%;
@@ -439,18 +438,28 @@ h2{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding-top: 10px;
     }
   
     .boxing1{
         margin: 20px;
+        width: 100%;
+    }
+    .funct h2{
+        padding-top: 20px;
     }
   
     .boxes{
         display: flex;
-        flex-direction: column;  
+        flex-direction: column;   
+        padding-top: 10px;
+    }
+    .latest h2{
+        padding-top: 35px;
     }
     .latest-boxes{
         margin: 20px;
+        width: 100%;
     }
     .copyright{
         width: 80%;
@@ -460,6 +469,7 @@ h2{
     .copy{
         height: 280px;
     }
+    
  
 }
 
