@@ -128,6 +128,7 @@
 .profile-content p{
     line-height: 30px; 
     padding-left: 30px;
+    
 }
 
 span{
@@ -209,19 +210,17 @@ h2{
 
 .funct{
     width: 100%;
-    background-color: rgb(255, 255, 255);
-   
+    background-color: rgb(255, 255, 255);  
 }
 .funct h2{
     text-align: center;
     text-transform: capitalize;
     color: #000;
     padding-top: 50px;
-    font-weight: 700;
-    
+    font-weight: 700; 
 }
 .boxing1{
-    width: 350px;
+    max-width: 350px;
     height: 350px;
     background-color: #155855;
     display: flex;
@@ -229,13 +228,13 @@ h2{
     flex-direction: column;
     transition: 0.2s;
     border-radius: 7px;
+    
 }
 .boxing{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding: 40px 60px;
-
 }
 .boxing1 p{
     color: #fff;
@@ -274,7 +273,7 @@ h2{
     padding-top: 50px;
 }
 .latest-boxes{
-    width: 350px;
+    max-width: 350px;
     height: 350px;
     background-color: #155855;  
     display: flex;
@@ -388,9 +387,9 @@ h2{
         
     }
     .profile-content img{
-        width: 70%;
+        width: 95%;
         height: 55%;
-        border-radius: 5px;
+        border-radius: 0;
         margin: 0 auto;
         padding-bottom: 14px;
     }
@@ -399,7 +398,7 @@ h2{
         flex-direction: column;
     }
     .profile-content p{
-        width: 95%;
+        width: 100%;
         margin-top: 20px;
         font-size: 18px;
     }
@@ -438,9 +437,9 @@ h2{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-top: 10px;
+
         width: 100%;
-        padding: 10px 50px;
+        padding: 10px 12px;
     }
   
     .boxing1{
@@ -455,8 +454,7 @@ h2{
     .boxes{
         display: flex;
         flex-direction: column;   
-        padding: 10px 50px;
-
+        padding: 10px 12px;
         width: 100%;
     }
     .latest h2{
