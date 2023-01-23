@@ -155,6 +155,27 @@ span{
     border-radius: 5px;
     position: absolute;
 }
+.scale2{
+    height: 15px;
+    width: 457px;
+    background-color: #1d7874;
+    border-radius: 5px;
+    position: absolute;
+}
+.scale3{
+    height: 15px;
+    width: 492px;
+    background-color: #1d7874;
+    border-radius: 5px;
+    position: absolute;
+}
+.scale4{
+    height: 15px;
+    width: 450px;
+    background-color: #1d7874;
+    border-radius: 5px;
+    position: absolute;
+}
 .back1{
     height: 15px;
     width: 550px;
@@ -165,43 +186,6 @@ span{
     padding-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: 2px;
-}
-.scale2{
-    height: 15px;
-    width: 450px;
-    background-color: #1d7874;
-    border-radius: 5px;
-}
-.back2{
-    height: 15px;
-    width: 550px;
-    background-color: #155855;
-    border-radius: 5px;
-}
-
-.scale3{
-    height: 15px;
-    width: 500px;
-    background-color: #1d7874;
-    border-radius: 5px;
-}
-.back3{
-    height: 15px;
-    width: 550px;
-    background-color: #155855;
-    border-radius: 5px;
-}
-.scale4{
-    height: 15px;
-    width: 430px;
-    background-color: #1d7874;
-    border-radius: 5px;
-}
-.back4{
-    height: 15px;
-    width: 550px;
-    background-color: #155855;
-    border-radius: 5px;
 }
 .new{
     margin-bottom: 25px;
@@ -428,6 +412,26 @@ h2{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 25px;
+    }
+    .part1{
+        width: 100%;
+    }
+    .back1{
+        width: 100%;
+    }
+   
+    .scale1{
+        width: 100%;
+    }
+    .scale2{
+        width: 100%;
+    }
+    .scale3{
+        width: 100%;
+    }
+    .scale4{
+        width: 100%;
     }
     
     
