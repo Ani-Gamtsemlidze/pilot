@@ -227,8 +227,7 @@ h2{
     justify-content: center;
     flex-direction: column;
     transition: 0.2s;
-    border-radius: 7px;
-    
+    border-radius: 7px;  
 }
 .boxing{
     display: flex;
@@ -283,8 +282,6 @@ h2{
     position: relative;
     border-radius: 7px;
     line-height: 32px;
-    
-
 }
 .latest-boxes p{
     font-size: 22px;
@@ -389,15 +386,16 @@ h2{
         width: 95%;
         height: 55%;
         border-radius: 0;
-        margin: 0 auto;
-        padding-bottom: 14px;
+        
+        padding-bottom: 8px;
     }
     .profile-content{
         display: flex;
         flex-direction: column;
+
     }
     .profile-content p{
-        
+        text-align: center;
         margin-top: 20px;
         font-size: 18px;
         padding-left: 0;
@@ -437,14 +435,11 @@ h2{
         justify-content: center;
         width: 100%;
         padding: 10px 12px;
-        max-width: 350px;
-        margin: 0 auto;
     }
   
     .boxing1{
-        margin: 20px 0;
-        width: 100%;
-
+        max-width: 350px;
+        margin: 20px auto;
     }
     .funct h2{
         padding-top: 20px;
@@ -459,13 +454,10 @@ h2{
     .latest h2{
         padding-top: 35px;
     }
-    .latest{
-        max-width: 350px;
-        margin: 0 auto;
-    }
+  
     .latest-boxes{
-        margin: 20px;
-        width: 100%;
+        max-width: 350px;
+        margin: 20px auto;
     }
     .latest-boxes h3{
         text-align: center;
